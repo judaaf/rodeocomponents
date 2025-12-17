@@ -37,13 +37,13 @@ class Rodeo_Blocks {
     public function init() {
         // Load dependencies
         require_once RODEO_BLOCKS_PATH . 'includes/block-categories.php';
-        require_once RODEO_BLOCKS_PATH . 'includes/register-blocks.php';
-        
+        require_once RODEO_BLOCKS_PATH . 'includes/register-blocks-safe.php';
+
         // Register block category
         add_filter('block_categories_all', 'rodeo_blocks_category', 10, 2);
-        
-        // Register all blocks
-        rodeo_register_all_blocks();
+
+        // Register all blocks (using safe version without closures)
+        rodeo_register_all_blocks_safe();
     }
     
     /**
