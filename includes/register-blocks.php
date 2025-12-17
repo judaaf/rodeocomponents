@@ -99,6 +99,9 @@ function rodeo_register_all_blocks() {
                 'editor_script' => 'rodeo-' . $block . '-block',
                 'style'         => 'rodeo-' . $block . '-style',
                 'render_callback' => function($attributes) use ($block) {
+                    // Enqueue the style on frontend
+                    wp_enqueue_style('rodeo-' . $block . '-style');
+
                     $render_file = RODEO_BLOCKS_PATH . 'blocks/' . $block . '/render.php';
                     if (file_exists($render_file)) {
                         ob_start();
