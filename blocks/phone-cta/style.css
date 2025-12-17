@@ -1,0 +1,70 @@
+.cta-phone {
+    background: #f8fafc;
+    border: 2px solid #e5e7eb;
+    border-radius: 18px;
+    padding: 24px;
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Barlow Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.cta-phone-icon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #10b981, #059669);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.cta-phone-icon svg {
+    width: 28px;
+    height: 28px;
+    color: white;
+}
+
+.cta-phone-content {
+    flex: 1;
+}
+
+.cta-phone-label {
+    font-size: 14px;
+    font-weight: 700;
+    color: #64748b;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+.cta-phone-number {
+    font-size: 28px;
+    font-weight: 800;
+    color: #00ACF2;
+    text-decoration: none;
+    display: block;
+    transition: color 0.2s;
+}
+
+.cta-phone-number:hover {
+    color: #0092CC;
+}
+
+.cta-phone-hours {
+    font-size: 14px;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+@media (max-width: 768px) {
+    .cta-phone {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .cta-phone-number {
+        font-size: 24px;
+    }
+}

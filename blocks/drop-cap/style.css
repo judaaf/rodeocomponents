@@ -1,0 +1,17 @@
+.drop-cap::first-letter {
+    float: left;
+    font-size: 72px;
+    line-height: 0.8;
+    font-weight: 800;
+    color: #00668F;
+    margin-right: 12px;
+    margin-top: 8px;
+    font-family: 'Barlow Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.drop-cap {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #00668F;
+    font-family: 'Barlow Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}

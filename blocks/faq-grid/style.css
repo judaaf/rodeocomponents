@@ -1,0 +1,9 @@
+.faq-grid { display: grid; gap: 20px; margin: 40px 0; font-family: 'Barlow Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+.faq-grid-1 { grid-template-columns: 1fr; }
+.faq-grid-2 { grid-template-columns: repeat(2, 1fr); }
+.faq-grid-item { background: #f8fafc; border: 2px solid #e5e7eb; border-radius: 18px; padding: 24px; transition: all 0.25s; }
+.faq-grid-item:hover { border-color: #00ACF2; transform: translateY(-4px); box-shadow: 0 8px 24px rgba(0,0,0,0.12); }
+.faq-grid-item h4 { font-size: 18px; font-weight: 800; color: #00668F; margin-bottom: 12px; display: flex; align-items: flex-start; gap: 10px; }
+.faq-grid-item h4 span { font-size: 22px; }
+.faq-grid-item p { font-size: 16px; color: #00668F; margin: 0; line-height: 1.6; }
+@media (max-width: 768px) { .faq-grid { grid-template-columns: 1fr; } }

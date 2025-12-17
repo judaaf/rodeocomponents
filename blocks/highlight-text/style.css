@@ -1,0 +1,12 @@
+.highlight {
+    padding: 0 4px;
+    font-family: 'Barlow Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.highlight-yellow {
+    background: linear-gradient(180deg, transparent 50%, rgba(255,218,86,0.4) 50%);
+}
+
+.highlight-blue {
+    background: linear-gradient(180deg, transparent 50%, rgba(0,172,242,0.2) 50%);
+}

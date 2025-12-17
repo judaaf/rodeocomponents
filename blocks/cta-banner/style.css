@@ -1,0 +1,71 @@
+.cta-banner {
+    background: linear-gradient(135deg, #FFDA56, #FFC700);
+    border-radius: 18px;
+    padding: 24px 32px;
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-family: 'Barlow Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.cta-banner-content {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.cta-banner-icon {
+    font-size: 36px;
+}
+
+.cta-banner h4 {
+    font-size: 22px;
+    font-weight: 800;
+    color: #00668F;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.cta-banner p {
+    font-size: 16px;
+    color: #00668F;
+    margin: 4px 0 0;
+    font-weight: 600;
+}
+
+.cta-banner-btn {
+    background: #00668F;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.25s;
+}
+
+.cta-banner-btn:hover {
+    background: #F1370F;
+    color: white;
+    transform: translateY(-3px);
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .cta-banner {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .cta-banner-content {
+        flex-direction: column;
+    }
+    
+    .cta-banner-btn {
+        width: 100%;
+    }
+}

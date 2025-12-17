@@ -1,0 +1,104 @@
+/* Heading with Icon Block Styles */
+.rodeo-heading-with-icon {
+    margin: 40px 0 20px;
+}
+
+.heading-with-icon {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    font-family: 'Barlow Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin: 0;
+    padding-left: 0;
+}
+
+/* Remove default h2 styling */
+.rodeo-heading-with-icon h2.heading-with-icon::before,
+.rodeo-heading-with-icon h3.heading-with-icon::before,
+.rodeo-heading-with-icon h4.heading-with-icon::before {
+    display: none;
+}
+
+.heading-with-icon .h-icon {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, #00ACF2, #0092CC);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.heading-with-icon .h-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.heading-with-icon .h-icon svg {
+    width: 28px;
+    height: 28px;
+    fill: white;
+}
+
+/* Size variations based on heading level */
+h1.heading-with-icon {
+    font-size: 36px;
+}
+
+h1.heading-with-icon .h-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 28px;
+}
+
+h2.heading-with-icon {
+    font-size: 32px;
+}
+
+h3.heading-with-icon {
+    font-size: 24px;
+}
+
+h3.heading-with-icon .h-icon {
+    width: 42px;
+    height: 42px;
+    font-size: 20px;
+}
+
+h4.heading-with-icon {
+    font-size: 20px;
+}
+
+h4.heading-with-icon .h-icon {
+    width: 36px;
+    height: 36px;
+    font-size: 18px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    h1.heading-with-icon {
+        font-size: 28px;
+    }
+    
+    h2.heading-with-icon {
+        font-size: 26px;
+    }
+    
+    h3.heading-with-icon {
+        font-size: 22px;
+    }
+    
+    .heading-with-icon .h-icon {
+        width: 42px;
+        height: 42px;
+        font-size: 20px;
+    }
+}

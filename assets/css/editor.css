@@ -1,0 +1,24 @@
+/* Common editor styles for all Rodeo blocks */
+:root {
+  --rodeo-blue-dark: #00668F;
+  --rodeo-blue: #0092CC;
+  --rodeo-blue-light: #00ACF2;
+  --rodeo-red: #F1370F;
+  --rodeo-red-dark: #D4310C;
+  --rodeo-yellow: #FFDA56;
+  --rodeo-yellow-dark: #FFC700;
+  --rodeo-green: #10b981;
+  --rodeo-green-dark: #059669;
+}
+
+.rodeo-blocks-preview {
+    font-family: 'Barlow Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    margin: 20px 0;
+}
+
+/* Editor specific styles */
+.heading-with-icon-preview {
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+}

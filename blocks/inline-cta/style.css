@@ -1,0 +1,78 @@
+.inline-cta {
+    background: linear-gradient(135deg, #F1370F, #D4310C);
+    border-radius: 18px;
+    padding: 32px;
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    color: white;
+    font-family: 'Barlow Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.inline-cta-blue {
+    background: linear-gradient(135deg, #00ACF2, #00668F);
+}
+
+.inline-cta-icon {
+    width: 70px;
+    height: 70px;
+    background: rgba(255,255,255,0.15);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 32px;
+}
+
+.inline-cta-content {
+    flex: 1;
+}
+
+.inline-cta-content h4 {
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    color: white;
+}
+
+.inline-cta-content p {
+    font-size: 16px;
+    color: rgba(255,255,255,0.9);
+    margin: 0;
+    font-weight: 600;
+}
+
+.inline-cta-btn {
+    background: rgba(255,255,255,0.2);
+    border: 2px solid white;
+    color: white;
+    padding: 16px 28px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.inline-cta-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .inline-cta {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .inline-cta-btn {
+        width: 100%;
+    }
+}

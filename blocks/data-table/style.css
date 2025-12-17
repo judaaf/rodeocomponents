@@ -1,0 +1,6 @@
+.data-table { margin: 30px 0; overflow-x: auto; font-family: 'Barlow Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+.data-table table { width: 100%; border-collapse: separate; border-spacing: 0; border: 2px solid #e5e7eb; border-radius: 12px; overflow: hidden; }
+.data-table thead th { background: linear-gradient(135deg, #00ACF2, #0092CC); color: white; padding: 16px; text-align: left; font-size: 15px; font-weight: 800; text-transform: uppercase; }
+.data-table tbody tr { background: white; }
+.data-table tbody tr:nth-child(even) { background: #f8fafc; }
+.data-table tbody td { padding: 14px 16px; font-size: 15px; color: #00668F; border-top: 1px solid #e5e7eb; }

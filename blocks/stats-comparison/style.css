@@ -1,0 +1,8 @@
+.stats-comparison { display: grid; grid-template-columns: 1fr auto 1fr; gap: 20px; align-items: center; margin: 30px 0; padding: 28px; background: #f8fafc; border-radius: 18px; font-family: 'Barlow Condensed', sans-serif; }
+.stats-comparison .stat-box { text-align: center; padding: 20px; }
+.stats-comparison .stat-box .stat-number { font-size: 48px; line-height: 1; margin-bottom: 8px; }
+.stats-comparison .stat-box.good .stat-number { color: #10b981; }
+.stats-comparison .stat-box.bad .stat-number { color: #F1370F; }
+.stats-comparison .stat-box .stat-label { font-size: 15px; color: #64748b; font-weight: 700; text-transform: uppercase; }
+.stats-comparison .stat-vs { font-size: 24px; font-weight: 800; color: #64748b; text-transform: uppercase; }
+@media (max-width: 768px) { .stats-comparison { grid-template-columns: 1fr; gap: 10px; } }
