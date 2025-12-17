@@ -1,0 +1,15 @@
+<!-- PASTE THIS FIRST - Simple Blocks Test -->
+
+<!-- wp:rodeo/heading-with-icon {"heading":"Test Heading","iconEmoji":"🦷"} /-->
+
+<!-- wp:rodeo/lead-paragraph {"content":"This is a test lead paragraph to verify the plugin is working."} /-->
+
+<!-- wp:rodeo/drop-cap {"content":"This is a drop cap paragraph to test basic functionality."} /-->
+
+<!-- wp:rodeo/callout-box {"type":"success","content":"This is a success callout box."} /-->
+
+<!-- wp:rodeo/stat-highlight {"stat":"98%","label":"Test Stat","sublabel":"Testing"} /-->
+
+<!-- wp:rodeo/blockquote {"quote":"Test quote goes here","author":"Test Author"} /-->
+
+<!-- wp:rodeo/cta-card {"icon":"🦷","heading":"Test CTA","text":"Test description","buttonText":"Click Here","buttonUrl":"/test/"} /-->

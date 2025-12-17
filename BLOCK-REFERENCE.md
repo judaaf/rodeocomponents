@@ -173,16 +173,16 @@ Content here
 
 ### 10. Icon List (rodeo/icon-list)
 
-**Description:** List with custom icons per item (repeater: ✓, i, !, ★)
+**Description:** List with custom icons per item (repeater: check, info, warning, star)
 
 **Attributes:**
 - `items` (array): Array of item objects, each with:
-  - `icon` (string): Icon character - Options: "✓", "i", "!", "★"
+  - `iconType` (string): Icon type - Options: "check", "info", "warning", "star"
   - `text` (string): Item text
 
 **Example:**
 ```html
-<!-- wp:rodeo/icon-list {"items":[{"icon":"✓","text":"Comprehensive oral examination"},{"icon":"✓","text":"Digital X-rays"},{"icon":"✓","text":"Professional cleaning"}]} /-->
+<!-- wp:rodeo/icon-list {"items":[{"iconType":"check","text":"Comprehensive oral examination"},{"iconType":"check","text":"Digital X-rays"},{"iconType":"info","text":"Professional cleaning"}]} /-->
 ```
 
 ---
@@ -242,11 +242,13 @@ Content here
 
 **Attributes:**
 - `title` (string): Checklist title - Default: "Checklist"
-- `items` (array): Array of strings (checklist items)
+- `items` (array): Array of item objects, each with:
+  - `title` (string): Item title
+  - `description` (string): Item description
 
 **Example:**
 ```html
-<!-- wp:rodeo/checklist-box {"title":"What to Bring","items":["Insurance card","Photo ID","List of medications","Previous dental records"]} /-->
+<!-- wp:rodeo/checklist-box {"title":"What to Bring","items":[{"title":"Insurance Card","description":"Bring your dental insurance information"},{"title":"Photo ID","description":"Valid government-issued identification"},{"title":"Medical History","description":"List of current medications"}]} /-->
 ```
 
 ---
