@@ -1,0 +1,116 @@
+<!-- CORRECTED - All 32 Rodeo Blocks Test -->
+<!-- Copy this entire code and paste in WordPress Code Editor -->
+
+<!-- 1. Heading with Icon -->
+<!-- wp:rodeo/heading-with-icon {"heading":"Complete Guide to Dental Health","iconEmoji":"🦷","iconType":"emoji","headingLevel":"h1","headingColor":"#00668F","iconColor":"#00ACF2"} /-->
+
+<!-- 2. Lead Paragraph -->
+<!-- wp:rodeo/lead-paragraph {"content":"Discover everything you need to know about maintaining optimal oral health with professional dental care."} /-->
+
+<!-- 3. Drop Cap -->
+<!-- wp:rodeo/drop-cap {"content":"Modern dentistry has transformed the way we approach oral health. With advanced technology and proven techniques, maintaining a healthy smile is easier than ever before."} /-->
+
+<!-- 4. Callout Box - Takeaway -->
+<!-- wp:rodeo/callout-box {"type":"takeaway","content":"Regular dental checkups every 6 months can prevent 75% of major dental problems."} /-->
+
+<!-- 5. Stat Highlight -->
+<!-- wp:rodeo/stat-highlight {"stat":"98%","label":"Patient Satisfaction Rate","sublabel":"Based on 2024 Reviews"} /-->
+
+<!-- 6. Stats Row -->
+<!-- wp:rodeo/stats-row {"stats":[{"number":"50+","label":"Locations"},{"number":"1M+","label":"Patients Served"},{"number":"15+","label":"Years Experience"}]} /-->
+
+<!-- 7. Stat Icon Box -->
+<!-- wp:rodeo/stat-icon-box {"icon":"😁","stat":"25K+","label":"Smiles Transformed"} /-->
+
+<!-- 8. Stats Comparison -->
+<!-- wp:rodeo/stats-comparison {"leftStat":"$500","leftLabel":"Traditional Braces","rightStat":"$350","rightLabel":"Modern Aligners","vsText":"VS"} /-->
+
+<!-- 9. Callout Box - Tip -->
+<!-- wp:rodeo/callout-box {"type":"tip","content":"Pro Tip: Brush for 2 minutes twice daily and floss once per day!"} /-->
+
+<!-- 10. Service Cards -->
+<!-- wp:rodeo/service-cards {"cards":[{"icon":"🦷","title":"General Dentistry","description":"Comprehensive exams and cleanings"},{"icon":"✨","title":"Cosmetic Dentistry","description":"Whitening and veneers"}]} /-->
+
+<!-- 11. Feature Card -->
+<!-- wp:rodeo/feature-card {"icon":"💡","heading":"Advanced Technology","description":"State-of-the-art equipment for precise treatments","buttonText":"Learn More","buttonUrl":"/technology/"} /-->
+
+<!-- 12. Process Steps -->
+<!-- wp:rodeo/process-steps {"steps":[{"title":"Initial Consultation","description":"Comprehensive examination"},{"title":"Treatment Plan","description":"Customized recommendations"},{"title":"Treatment Phase","description":"Professional care"}]} /-->
+
+<!-- 13. Horizontal Steps -->
+<!-- wp:rodeo/horizontal-steps {"steps":[{"title":"Book","description":"Schedule online"},{"title":"Visit","description":"Come for exam"},{"title":"Smile","description":"Enjoy results"}]} /-->
+
+<!-- 14. Timeline -->
+<!-- wp:rodeo/timeline {"items":[{"date":"Week 1","title":"Consultation","description":"Complete exam"},{"date":"Week 2","title":"Treatment Begins","description":"First procedure"}]} /-->
+
+<!-- 15. Checklist Box (FIXED: items need title and description) -->
+<!-- wp:rodeo/checklist-box {"title":"Your First Visit Includes","items":[{"title":"Comprehensive Examination","description":"Full oral health assessment"},{"title":"Digital X-rays","description":"Advanced imaging technology"},{"title":"Professional Cleaning","description":"Thorough dental cleaning"}]} /-->
+
+<!-- 16. Icon List (FIXED: items need text and iconType) -->
+<!-- wp:rodeo/icon-list {"items":[{"text":"Board-certified dental professionals","iconType":"check"},{"text":"State-of-the-art facilities","iconType":"check"},{"text":"Emergency care available","iconType":"info"}]} /-->
+
+<!-- 17. Pros & Cons -->
+<!-- wp:rodeo/pros-cons {"pros":["Pain-free procedures","Quick recovery","Long-lasting results"],"cons":["Multiple visits may be needed","Investment required"]} /-->
+
+<!-- 18. Comparison Table -->
+<!-- wp:rodeo/comparison-table {"rows":[{"feature":"Cleanings per Year","basic":"2","premium":"4"},{"feature":"X-rays","basic":"Annual","premium":"Bi-annual"}]} /-->
+
+<!-- 19. Data Table -->
+<!-- wp:rodeo/data-table {"headers":["Service","Duration","Cost"],"rows":[["Cleaning","60 min","$120"],["Filling","45 min","$180"]]} /-->
+
+<!-- 20. Callout Box - Warning -->
+<!-- wp:rodeo/callout-box {"type":"warning","content":"Delaying treatment can lead to more serious complications."} /-->
+
+<!-- 21. Before/After -->
+<!-- wp:rodeo/before-after {"beforeImage":"https://via.placeholder.com/400x300?text=Before","afterImage":"https://via.placeholder.com/400x300?text=After","beforeLabel":"Before","afterLabel":"After"} /-->
+
+<!-- 22. Image Block -->
+<!-- wp:rodeo/image-block {"imageUrl":"https://via.placeholder.com/800x400?text=Dental+Office","caption":"Our modern facility","alignment":"center"} /-->
+
+<!-- 23. Video Placeholder -->
+<!-- wp:rodeo/video-placeholder {"label":"Watch Patient Testimonial","videoUrl":"https://youtube.com/watch?v=example"} /-->
+
+<!-- 24. Blockquote -->
+<!-- wp:rodeo/blockquote {"quote":"The team made my daughter feel so comfortable. She actually asked when we could go back!","author":"Sarah M."} /-->
+
+<!-- 25. Testimonial Card -->
+<!-- wp:rodeo/testimonial-card {"stars":5,"quote":"Best dental experience ever! Professional and caring staff.","avatar":"👨","author":"John Davis","location":"Austin, TX"} /-->
+
+<!-- 26. Trust Bar -->
+<!-- wp:rodeo/trust-bar {"items":[{"icon":"✓","label":"Licensed Professionals"},{"icon":"🏆","label":"Award Winner 2024"}]} /-->
+
+<!-- 27. FAQ Accordion -->
+<!-- wp:rodeo/faq-accordion {"faqs":[{"question":"How often should I visit?","answer":"We recommend every 6 months for routine checkups."},{"question":"Do you accept insurance?","answer":"Yes, we accept most major dental insurance plans."}]} /-->
+
+<!-- 28. FAQ Grid -->
+<!-- wp:rodeo/faq-grid {"faqs":[{"question":"Do you see children?","answer":"Yes! We provide family dentistry."},{"question":"Is parking available?","answer":"Yes, free parking at all locations."}]} /-->
+
+<!-- 29. Tabs -->
+<!-- wp:rodeo/tabs {"tabs":[{"title":"General Care","content":"Exams, cleanings, and preventive care."},{"title":"Cosmetic","content":"Whitening, veneers, and smile makeovers."}]} /-->
+
+<!-- 30. Callout Box - Success -->
+<!-- wp:rodeo/callout-box {"type":"success","content":"Most patients see significant improvement within 3 months!"} /-->
+
+<!-- 31. Inline CTA -->
+<!-- wp:rodeo/inline-cta {"text":"Schedule your consultation today!","buttonText":"Book Now","buttonUrl":"/locations/"} /-->
+
+<!-- 32. CTA Banner -->
+<!-- wp:rodeo/cta-banner {"icon":"🎁","text":"New Patient Special","description":"Free consultation for new patients","buttonText":"Claim Offer","buttonUrl":"/contact/"} /-->
+
+<!-- 33. CTA Card -->
+<!-- wp:rodeo/cta-card {"icon":"😁","heading":"Ready for Your Best Smile?","text":"Join thousands of satisfied patients!","buttonText":"Get Started","buttonUrl":"/locations/"} /-->
+
+<!-- 34. Phone CTA -->
+<!-- wp:rodeo/phone-cta {"heading":"Call Us Today","phone":"(888) 453-4129","subtext":"Available Mon-Fri 8am-6pm"} /-->
+
+<!-- 35. Highlight Text - Yellow -->
+<!-- wp:rodeo/highlight-text {"content":"90% of patients report satisfaction","color":"yellow"} /-->
+
+<!-- 36. Highlight Text - Blue -->
+<!-- wp:rodeo/highlight-text {"content":"insurance accepted","color":"blue"} /-->
+
+<!-- 37. Callout Box - Info -->
+<!-- wp:rodeo/callout-box {"type":"info","content":"Did You Know? Regular dental visits can help detect early signs of serious health conditions."} /-->
+
+<!-- 38. Callout Box - Note -->
+<!-- wp:rodeo/callout-box {"type":"note","content":"Note: Bring your insurance card to your first appointment."} /-->
