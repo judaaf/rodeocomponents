@@ -22,7 +22,7 @@
     display: none;
 }
 
-.heading-with-icon .h-icon {
+.heading-icon-wrapper {
     width: 50px;
     height: 50px;
     background: linear-gradient(135deg, #00ACF2, #0092CC);
@@ -35,16 +35,22 @@
     overflow: hidden;
 }
 
-.heading-with-icon .h-icon img {
+.heading-icon-wrapper img,
+.heading-icon-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.heading-with-icon .h-icon svg {
+.heading-icon-wrapper svg {
     width: 28px;
     height: 28px;
     fill: white;
+}
+
+.heading-icon-emoji {
+    font-size: 24px;
+    line-height: 1;
 }
 
 /* Size variations based on heading level */
@@ -52,7 +58,7 @@ h1.heading-with-icon {
     font-size: 36px;
 }
 
-h1.heading-with-icon .h-icon {
+h1.heading-with-icon .heading-icon-wrapper {
     width: 60px;
     height: 60px;
     font-size: 28px;
@@ -66,7 +72,7 @@ h3.heading-with-icon {
     font-size: 24px;
 }
 
-h3.heading-with-icon .h-icon {
+h3.heading-with-icon .heading-icon-wrapper {
     width: 42px;
     height: 42px;
     font-size: 20px;
@@ -76,7 +82,7 @@ h4.heading-with-icon {
     font-size: 20px;
 }
 
-h4.heading-with-icon .h-icon {
+h4.heading-with-icon .heading-icon-wrapper {
     width: 36px;
     height: 36px;
     font-size: 18px;
@@ -96,7 +102,7 @@ h4.heading-with-icon .h-icon {
         font-size: 22px;
     }
     
-    .heading-with-icon .h-icon {
+    .heading-with-icon .heading-icon-wrapper {
         width: 42px;
         height: 42px;
         font-size: 20px;
