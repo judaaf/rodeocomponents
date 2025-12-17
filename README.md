@@ -1,6 +1,6 @@
 # Rodeo Dental Blocks
 
-**Version 3.0** - Complete block library with 31 custom Gutenberg blocks for Rodeo Dental blog posts.
+**Version 3.0** - Complete block library with 32 custom Gutenberg blocks for Rodeo Dental blog posts.
 
 ## Installation
 
@@ -9,9 +9,16 @@
 3. Blocks appear in "Rodeo Components" category in Gutenberg editor
 4. Start building beautiful blog posts!
 
+## AI-Assisted Development
+
+For AI code generation and detailed attribute reference, see **[BLOCK-REFERENCE.md](BLOCK-REFERENCE.md)**. This file contains:
+- Complete attribute documentation for all 32 blocks
+- Code examples for direct WordPress editor use
+- Repeater block patterns and common usage examples
+
 ---
 
-## 📦 All 31 Blocks
+## 📦 All 32 Blocks
 
 ### 📝 Typography & Text (4 blocks)
 1. **Heading with Icon** - Customizable headings with emoji/image/SVG icons + colors
@@ -182,7 +189,7 @@ Edit `assets/css/editor.css` CSS variables:
 ## 📝 Changelog
 
 ### Version 3.0.0 (December 2024)
-- **31 total blocks** (up from 9)
+- **32 total blocks** (up from 9)
 - Added 22 new blocks:
   - Stats Row, Stat Icon Box, Stats Comparison
   - Horizontal Steps, Timeline
