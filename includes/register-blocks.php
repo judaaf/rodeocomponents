@@ -9,7 +9,7 @@ function rodeo_register_all_blocks() {
         return;
     }
     
-    // Array of all blocks to register (31 total)
+    // Array of all blocks to register (32 total)
     $blocks = array(
         // Typography & Text (4)
         'heading-with-icon',
